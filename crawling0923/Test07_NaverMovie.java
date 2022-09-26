@@ -12,7 +12,7 @@ public class Test07_NaverMovie {
 
 	public static void main(String[] args) {
 		//네이버 영화 평점 후기 크롤링하기
-		//"공조2" 영화 평점 제목을 공감순으로 정렬 후 크롤링하기 (대략건)
+		//"공조2" 영화 평점 제목을 공감순으로 정렬 후 크롤링하기 (대략 9690건)
 		//gongjo.txt 파일에 저장하기
 		
 		try {

@@ -12,7 +12,7 @@ public class Test08_NaverMovie_다른영화로 {
 
 	public static void main(String[] args) {
 		//네이버 영화 평점 후기 크롤링하기
-		//"아바타" 영화 평점 제목을 공감순으로 정렬 후 크롤링하기 (대략건)
+		//"아바타" 영화 평점 제목을 공감순으로 정렬 후 크롤링하기
 		//avatar.txt 파일에 저장하기
 		
 		try {
@@ -25,7 +25,7 @@ public class Test08_NaverMovie_다른영화로 {
 			String params="?code=221031";		//영화코드번호
 			params += "&type=after&onlyActualPointYn=N&onlySpoilerPointYn=N";
 			params += "&order=sympathyScore";	//공감순
-			params += "&page=";					//대략 1~969 페이지
+			params += "&page=";
 			
 			//공감순     order=sympathyScore
             //최신순     order=newest
